@@ -6,7 +6,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng serve --proxy-config proxy.conf.json --open",
+    "start": "ng serve --proxy-config proxy.conf.json --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint"
