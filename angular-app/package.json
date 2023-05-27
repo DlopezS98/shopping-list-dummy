@@ -6,7 +6,7 @@
   }, 
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy.conf.json --open",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve --proxy-config proxy.conf.json --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint"
